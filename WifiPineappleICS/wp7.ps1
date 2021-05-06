@@ -1,5 +1,5 @@
 # Share internet with Wifi pinapple
-# Credit to the Hak5 dev team for wp7.sh and pinapple web documentation
+# Credit to the Hak5 dev team for wp7.sh and pineapple web documentation
 # and Aidan Holland (thehappydinoa) for https://github.com/hak5/bashbunny-payloads/blob/master/payloads/library/general/Windows_NIC_Sharing/p.ps1
 # Credit to Wasabi Fan on technet for the Com-Object stuff
 
