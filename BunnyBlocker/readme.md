@@ -10,4 +10,4 @@
 | 1.0     | Initial release |
 
 ## Description
-Finds the Hak5 Bashbunny if storage attack mode is enabled. Prints out the payloads for both switch positions then ejects the drive.
+"Should" block any newly attached HID devices till the random string is entered
