@@ -8,4 +8,4 @@
 | 1.0     | Initial release |
 
 ## Description
-Finds the Hak5 Bashbunny if Storage is enabled. prints out the payload then ejects the drive.
+Finds the Hak5 Bashbunny if storage attack mode is enabled. Prints out the payloads for both switch positions then ejects the drive.
