@@ -12,9 +12,9 @@ $wpver=7.0
 #$spineapplenet=172.16.42.0/24
 #$spineapplelan=eth1
 #$spineapplewan=wlan0
-$spineapplegw=192.168.1.1
-$spineapplehostip=172.16.42.42
-$spineappleip=172.16.42.1
+$spineapplegw="192.168.1.1"
+$spineapplehostip="172.16.42.42"
+$spineappleip="172.16.42.1"
 $pineMatch = "^00:C0:CA|^00:13:37"
 
 function share ($GUID, $Public) {
@@ -49,7 +49,7 @@ do
     }
     else
     {
-        Write-Host  -NoNewline "."
+        Write-Host -NoNewline "."
         $cnt++
     }
     Start-Sleep 1
