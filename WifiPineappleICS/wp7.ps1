@@ -15,7 +15,7 @@ $wpver=7.0
 $spineapplegw="192.168.1.1"
 $spineapplehostip="172.16.42.42"
 $spineappleip="172.16.42.1"
-$pineMatch = "^00:C0:CA|^00:13:37"
+$pineMatch = "^00[:-]C0[:-]CA|^00[:-]13[:-]37"
 
 function share ($GUID, $Public) {
     $Connection = $NetSharing.EnumEveryConnection | ?{ $NetSharing.NetConnectionProps.Invoke($_).Guid -eq $GUID } # Find Connection
